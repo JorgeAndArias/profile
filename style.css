@@ -1,0 +1,87 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #495057;
+  background-color: #ced4da;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 750px;
+  margin: auto;
+
+}
+
+.card {
+  padding: 10px;
+  margin: 15px;
+  background-color: #dee2e6;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.reduce-font-size {
+  font-size: 18px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
